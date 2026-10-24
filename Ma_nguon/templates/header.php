@@ -1,23 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CommunityPass • Bài thực hành OSS</title>
-<link rel="stylesheet" href="/assets/css/tokens.css">
-<link rel="stylesheet" href="/assets/css/app.css">
+    <meta charset="UTF-8">
+    <title>Ứng dụng Lưu trữ và Tìm kiếm Trang Web (Topic 16)</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header.main-header { background: #0066cc; color: white; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; }
+        header.main-header h1 { margin: 0; font-size: 20px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-<a class="skip-link" href="#main">Đến nội dung chính</a>
-<header class="site-header">
-<div class="header-inner">
-<strong class="brand">CommunityPass</strong>
-<p>Dự án mẫu học phần Phát triển phần mềm mã nguồn mở</p>
-</div>
-</header>
-<main id="main" tabindex="-1">
-<nav class="main-nav" aria-label="Điều hướng chính">
-<a href="/">Danh sách sự kiện</a>
-<a href="/ui-demo.php">Sự kiện mẫu</a>
-<a href="/register.php">Đăng ký tham dự</a>
-</nav>
+<div class="container">
+    <header class="main-header">
+        <h1>Kho Lưu Trữ Tài Liệu & Đọc Sạch Web (Topic 16)</h1>
+    </header>
